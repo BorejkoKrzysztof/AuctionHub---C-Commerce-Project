@@ -1,0 +1,77 @@
+*****************	PROWADZIĆ DZIENNIK PRACY	*************************
+
+AuctionHub - E-Commerce Project
+
+
+
+
+aplikacje w oparciu o c# ASP NET Core Web API
+
+główna aplikacja webowa dla klienta => React js
+
+aplikacja webowa dla sprzedawców => React js/Angular
+
+aplikacja webowa do logowania => Identity server 4  => MVC
+
+aplikacja do drukowania etykiet dla sprzedawców => WPF MVVC
+
+aplikacja mobilna => flutter
+
+
+produkt
+sprzedający
+klient
+autentykacja
+autoryzacja
+zamówienia
+zniżki
+koszyk
+newsletter
+oferty
+bot licytujący
+faktury
+
+
+
+    Wyświetlanie listy produktów z możliwością filtrowania i sortowania według różnych kryteriów (np. cena, nazwa, kategoria)
+    Wyświetlanie szczegółowych informacji o produkcie, w tym zdjęcia, opis, dostępność, cenę
+    Obsługa wyszukiwarki produktów po frazie lub kategorii
+    Dodawanie produktów do koszyka z możliwością wyboru ilości
+    Modyfikowanie ilości produktów w koszyku
+    Przeglądanie zawartości koszyka z możliwością usuwania produktów
+    Realizowanie zamówienia (wprowadzanie danych adresowych, wybór sposobu płatności i dostawy)
+    Rejestracja nowego konta z weryfikacją adresu e-mail
+    Logowanie do istniejącego konta z możliwością odzyskania hasła
+    Edycja danych konta (np. adresu, numeru telefonu)
+    Przeglądanie historii zamówień z możliwością śledzenia statusu
+    Integracja z systemami płatności online (np. PayPal, Stripe)
+    Obsługa wielu języków i walut
+    Wysyłanie powiadomień do klientów o zmianie statusu zamówienia (np. przygotowywane do wysyłki, wysłane)
+    Zarządzanie katalogiem produktów (dodawanie, edycja, usuwanie produktów)
+    Zarządzanie zamówieniami (obserwowanie statusu, zmiana statusu, wysyłanie powiadomień)
+    Zarządzanie kontami użytkowników (zablokowanie, usunięcie konta)
+    Obsługa kuponów rabatowych
+    Ocenianie i komentowanie produktów przez użytkowników
+    Funkcja "Poleć
+    Funkcja "Zamów telefonicznie" pozwalająca na złożenie zamówienia poprzez telefon z obsługą klienta
+    Funkcja "Zamów w sklepie stacjonarnym" pozwalająca na złożenie zamówienia w sklepie stacjonarnym za pośrednictwem strony internetowej
+    Integracja z systemem wysyłki paczek (np. UPS, DHL)
+    Integracja z systemem newslettera pozwalająca na wysyłanie wiadomości e-mail z aktualnościami i promocjami do subskrybentów
+    Integracja z systemem komunikacji z klientami (np. LiveChat, Messenger)
+    Integracja z systemem zarządzania opiniami (np. Trustpilot, Google Reviews)
+    Integracja z systemem zarządzania treścią (CMS) pozwalająca na łatwą edycję treści na stronie internetowej
+    Integracja z systemem analityki internetowej (np. Google Analytics) pozwalająca na zbieranie danych o ruchu na stronie i konwersji
+    Integracja z systemem remarketingowym pozwalająca na wyświetlanie reklam produktów odwiedzającym stronę po ich wizycie w sklepie
+    Integracja z systemem obsługi płatności mobilnych (np. Google Pay, Apple Pay) pozwalająca na szybkie i wygodne dokonywanie płatności za pomocą urządzeń mobilnych.
+    Integracja z systemem rekomendacji produktów pozwalająca na wyświetlanie rekomendowanych produktów na stronie internetowej
+    Integracja z systemem porównywania cen pozwalająca na porównanie cen produktów z innymi sklepami
+    Obsługa programu lojalnościowego dla stałych klientów z możliwością zbierania punktów i wymieniania ich na nagrody
+    Funkcja "Kup teraz, zapłać później" pozwalająca na zakup produktu z opcją spłaty w ratach
+    Funkcja "Kup za punkty" pozwalająca na zakup produktu za punkty zgromadzone w programie lojalnościowym
+    Integracja ze sklepami społecznościowymi (np. Facebook, Instagram) pozwalająca na publikowanie produktów i promocji w social media
+    Funkcja "Poleć produkt znajomemu" polegająca na możliwości wysłania
+    Funkcja "Powiadom mnie o cenie" pozwalająca na otrzymywanie powiadomień o obniżce ceny wybranego produktu
+    Funkcja "Dodaj do ulubionych" pozwalająca na dodawanie produktów do listy ulubionych
+    Integracja z systemem analityki internetowej (np. Google Analytics) pozwalająca na zbieranie danych o ruchu na stronie i konwersji.
+    Logowanie przez fb, google
+    pokazywanie adresu sprzedawcy => mapy google zintegrowane
