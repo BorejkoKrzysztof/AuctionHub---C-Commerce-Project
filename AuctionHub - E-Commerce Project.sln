@@ -3,9 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F3497DF-1A35-467A-93FB-ADA4B74D88D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D172BDE7-7A6F-4A09-A93C-873941209E3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{8C4514B3-1679-4AF6-B2E8-8CFD51DE3FF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{B6499A98-CA53-4700-8581-3BFA114ED852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontendApps", "FrontendApps", "{F9B368C5-D6BE-41DE-A0B2-572679DF9D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketAPI", "src\Services\Basket\BasketAPI\BasketAPI.csproj", "{197BB026-87C7-4A33-8DC2-D87950609F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{9D08D8AD-F931-4833-8A6E-C24A4F5CABC3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{197BB026-87C7-4A33-8DC2-D87950609F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197BB026-87C7-4A33-8DC2-D87950609F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197BB026-87C7-4A33-8DC2-D87950609F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197BB026-87C7-4A33-8DC2-D87950609F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D172BDE7-7A6F-4A09-A93C-873941209E3C} = {0F3497DF-1A35-467A-93FB-ADA4B74D88D4}
+		{8C4514B3-1679-4AF6-B2E8-8CFD51DE3FF9} = {D172BDE7-7A6F-4A09-A93C-873941209E3C}
+		{B6499A98-CA53-4700-8581-3BFA114ED852} = {0F3497DF-1A35-467A-93FB-ADA4B74D88D4}
+		{F9B368C5-D6BE-41DE-A0B2-572679DF9D1B} = {0F3497DF-1A35-467A-93FB-ADA4B74D88D4}
+		{197BB026-87C7-4A33-8DC2-D87950609F4A} = {8C4514B3-1679-4AF6-B2E8-8CFD51DE3FF9}
+		{9D08D8AD-F931-4833-8A6E-C24A4F5CABC3} = {D172BDE7-7A6F-4A09-A93C-873941209E3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C74C4D3E-A13B-4785-B245-5D8305EEC54E}
