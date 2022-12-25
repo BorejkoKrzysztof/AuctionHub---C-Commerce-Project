@@ -1,0 +1,6 @@
+
+******************	Dictionary	**********************
+
+25.12.2022 => DAY 1
+I created repo on github.com for my e-commerce project. And I added a few microservices like : Basket, Discount, Order, Product.
+I also created Empty API for Ocelot Api Gateway, but I still need to install nuget package.
