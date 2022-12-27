@@ -4,6 +4,9 @@ var builder = WebApplication.CreateBuilder(args).WebHost.ConfigureLogging((hosti
     loggingBuilder.AddConsole();
     loggingBuilder.AddDebug();
 });
+
+builder
+
 var app = builder.Build();
 
 app.Run();
