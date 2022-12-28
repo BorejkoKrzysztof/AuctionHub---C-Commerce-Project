@@ -10,4 +10,4 @@ I installed Ocetlot nuget package in ApiGateway Project and I configured Program
 After that I added ocelot.json files (Empty yet)
 
 28.12.2022 => DAY 3
-I fixed project's local directory issue, and I filled initial code inside ocelot.json files
+I fixed issue with project's local directory, and I filled initial code inside ocelot.json files
