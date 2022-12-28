@@ -1,12 +1,19 @@
-var builder = WebApplication.CreateBuilder(args).WebHost.ConfigureLogging((hostingContext, loggingBuilder) =>
-{
-    loggingBuilder.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-    loggingBuilder.AddConsole();
-    loggingBuilder.AddDebug();
-});
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
-builder
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
+builder.Configuration.AddJsonFile($"ocelot.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true);
+builder.Services.AddOcelot();
+
+// Add services to the container.
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
 app.Run();
+
+await app.UseOcelot();

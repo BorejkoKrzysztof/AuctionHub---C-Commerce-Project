@@ -6,8 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Ocelot" Version="18.0.0" />
-  </ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="Ocelot" Version="18.0.0" />
+	</ItemGroup>
 </Project>
