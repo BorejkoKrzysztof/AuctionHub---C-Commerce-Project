@@ -8,3 +8,6 @@ I also created Empty API for Ocelot Api Gateway, but I still need to install nug
 27.12.2022 => DAY 2
 I installed Ocetlot nuget package in ApiGateway Project and I configured Program.cs class. 
 After that I added ocelot.json files (Empty yet)
+
+28.12.2022 => DAY 3
+I fixed project's local directory issue, and I filled initial code inside ocelot.json files
