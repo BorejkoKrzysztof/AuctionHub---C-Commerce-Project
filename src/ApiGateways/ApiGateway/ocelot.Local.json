@@ -18,6 +18,9 @@
         "Period": "1s",
         "PeriodTimespan": 1,
         "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 15
       }
     }
   ],
