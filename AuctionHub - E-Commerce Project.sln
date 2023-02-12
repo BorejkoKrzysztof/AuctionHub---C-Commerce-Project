@@ -27,9 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{91
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountAPI", "src\Services\Discount\DiscountAPI\DiscountAPI.csproj", "{4A9D21B3-E899-4091-8751-301E91810AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "src\ApiGateways\ApiGateway\ApiGateway.csproj", "{FB4BA59C-9235-439C-91E8-30248A9D7878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "src\ApiGateways\ApiGateway\ApiGateway.csproj", "{FB4BA59C-9235-439C-91E8-30248A9D7878}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{22F1CAA1-82C1-447D-B37B-C7E6B0727F2E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A084892C-9EC0-4187-B761-7D5E28BBB42A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{FB4BA59C-9235-439C-91E8-30248A9D7878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB4BA59C-9235-439C-91E8-30248A9D7878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB4BA59C-9235-439C-91E8-30248A9D7878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A084892C-9EC0-4187-B761-7D5E28BBB42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A084892C-9EC0-4187-B761-7D5E28BBB42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A084892C-9EC0-4187-B761-7D5E28BBB42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A084892C-9EC0-4187-B761-7D5E28BBB42A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
