@@ -38,6 +38,62 @@ FUNCTIONAL REQUIREMENTS
 31.Introducing options for managing user accounts and permissions
 32.Possibility to repeat auction
 33.Introduction of options for inventory management and monitoring
+34. CATEGORIES:
+                  A)  Electronics and Computer Equipment:
+                        Cell phones
+                        Laptops
+                        Cameras
+                        Audio equipment
+
+                  B)  Fashion and Clothing:
+                        Clothing
+                        Shoes
+                        Bags
+                        Accessories
+                        Jewelry
+
+                  C)  Collectibles and Art:
+                        Coins
+                        Postage stamps
+                        Paintings
+                        Sculptures
+
+                  D)  Home and Garden:
+                        Furniture
+                        Home appliances
+                        Decorations
+                        Gardening tools
+
+                  E)  Cars and Motorcycles:
+                        Cars
+                        Motorcycles
+                        Car and motorcycle parts
+
+                  F)  Books, Movies and Music:
+                        Books
+                        CDs and DVDs
+                        Vinyl records
+
+                  G)  Games and Toys:
+                        Board games
+                        Toys
+                        Game consoles
+
+                  H)  Sports and Tourism:
+                        Sports equipment
+                        Tourism accessories
+                        Bicycles
+
+                  I)  Antiques and Finds:
+                        Antiques
+                        Metal finds
+                        Postage stamps
+
+                  J)  Services:
+
+                        Freelance services
+                        Repair services
+                        Renovation services
 
 
 NON-FUNCTIONAL REQUIREMENTS
